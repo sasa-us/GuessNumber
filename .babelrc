@@ -1,10 +1,9 @@
 {
   "presets": [
-    ["es2015", {"modules": false}],
-    "stage-2",
-    "react"
+    "@babel/preset-env",
+    "@babel/preset-react"
   ],
   "plugins": [
-    "react-hot-loader/babel"
+    "syntax-async-functions"
   ]
 }

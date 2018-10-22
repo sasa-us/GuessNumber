@@ -30,5 +30,5 @@ new WebpackDevServer(webpack(config), {
     }
 
     console.log('\x1b[36m%s\x1b[33m%s\x1b[0m', 'Dev server running at ', 'localhost:' + PORT);
-    console.log('\x1b[32m%s\x1b[0m', '\nWebpack compiling...');
+    console.log('\x1b[32m%s\x1b[0m', '\nWebpack compiling...\n');
 });
